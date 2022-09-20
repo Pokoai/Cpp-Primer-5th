@@ -8,9 +8,9 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"${file}",
+				// "${file}",
 				//"${fileDirname}\\sqtree.cpp",  // 编译特定文件
-				//"${fileDirname}\\*.cpp", 	   // 编译文件夹下所有 .cpp 文件
+				"${fileDirname}\\*.cpp", 	     // 编译文件夹下所有 .cpp 文件
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
