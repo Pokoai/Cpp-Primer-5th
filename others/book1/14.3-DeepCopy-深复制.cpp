@@ -48,5 +48,6 @@ int main()
 
     std::cout << wi.GetSpeed() << std::endl;
 
+
     return 0;
 }
