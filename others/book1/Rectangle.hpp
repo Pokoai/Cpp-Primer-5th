@@ -7,7 +7,7 @@ class Point
         int getX() const { return x; }
         int getY() const { return y; }
         void setX(int newX) { x = newX; };
-        void setY(int newY) { y = newY };
+        void setY(int newY) { y = newY; };
     private:
         int x;
         int y;
